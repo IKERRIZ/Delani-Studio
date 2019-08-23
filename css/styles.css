@@ -25,3 +25,15 @@
     margin-left:85vh;
     padding-top: 85px;
 }
+.about{
+    text-align: center;
+
+}
+.services{
+    background-image: url('../assets/backgrounds/s_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:whitesmoke;
+    text-align: center;
+    height:80vh;
+}
