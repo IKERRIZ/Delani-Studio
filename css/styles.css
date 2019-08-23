@@ -1,0 +1,27 @@
+.container{
+    background-image: url('../assets/backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.log{
+    margin-left:50%;
+    margin-bottom:50px;
+    padding-top:70px;
+}
+.welcome{
+    text-align: center;
+    color:white;
+}
+.del{
+    text-align:center;
+    color:white;
+}
+.amazing{
+    text-align: center;
+    color:white;
+}
+.mouse{
+    margin-left:85vh;
+    padding-top: 85px;
+}
