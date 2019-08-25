@@ -4,26 +4,27 @@
     height: 100vh;
     background-size: cover;
 }
-.log{
-    margin-left:50%;
-    margin-bottom:50px;
-    padding-top:70px;
+ #log{
+    margin-left:45%;
+    padding-top:200px;
 }
 .welcome{
     text-align: center;
     color:white;
 }
-.del{
+/* .del{
     text-align:center;
     color:white;
 }
 .amazing{
     text-align: center;
-    color:white;
-}
+    color:white; */
+/* } */
 .mouse{
-    margin-left:85vh;
-    padding-top: 85px;
+    /* margin-left:85vh;
+    padding-top: 85px; */
+    padding-top: 140px;
+    padding-left: 580px;
 }
 .about{
     text-align: center;
@@ -45,7 +46,7 @@
      text-align: center;
      padding-top:30px;
      font-weight: bolder;
-     font-size: 30px;
+     /* font-size: 30px; */
  }
  .do p{
      display:none;
@@ -53,8 +54,12 @@
  .do img,p{
      cursor:pointer;
  }
- .do h2{
+ .do h1{
      font-size: 20px;
+     font-weight: bolder;
+ }
+ .do h2{
+     font-size:15px;
  }
  .do row{
      display: flex;
@@ -86,4 +91,130 @@
     padding-top: 80px;
     padding-left:40px;
 }
+.contact{
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    height:500px;
+    margin-top: 100px;
+    margin-left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact h1{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 0;
+    color: white;
+}
+.contact input,textarea{
+    background: none;
+}
+::placeholder{
+    color:white;
+}
+.contact textarea{
+    margin-left:100px;
+    margin-top:20px;
+    /* margin-right: 100px; */
+}
+/* .contact input{
+    margin-left: 300px;
+    margin-top: 40px;
+} */
+#email{
+    position: relative;
+    right:200px;
+    width:300px;
+}
+#name{
+    width:300px;
+}
+ /* button{
+    position:relative;
+    top:40px;
+    right:400px;
+} */
+.icons{
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: unset;
+}
+#last p{
+    text-align: center;
+    margin-top: 10px;
 
+}
+@media screen and (max-width:800px){
+    .container{
+        height:850px;
+    }
+    .about{
+        height: 500px;
+    }
+    .do{
+        height: 500px;
+    }
+    .do .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        height: 700px;
+    }
+    #name{
+        width: 200px;
+        position: relative;
+        right: 200px;
+    }
+    #email{
+        width: 200px;
+        position: relative;
+        right: 200px;
+    }
+    textarea{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        right: 200px;
+    }
+    button{
+        color: black;
+    }
+    .cover{
+        overflow: hidden;
+    }
+    
+}
+@media screen and (max-width:300px){
+    .contact{
+        height: 700px;
+    }
+    #name{
+        width: 200px;
+        position: relative;
+        right: 200px;
+    }
+    #email{
+        width: 200px;
+        position: relative;
+        right: 200px;
+    }
+    textarea{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        right: 200px;
+    }
+    button{
+        color: black;
+    }
+    .cover{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:500px){
+    .cover{
+        overflow: hidden;
+    }
+}
