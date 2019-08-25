@@ -35,5 +35,12 @@
     background-repeat: no-repeat;
     color:whitesmoke;
     text-align: center;
-    height:80vh;
+    height:450px;
 }
+.services h1{
+     padding-top: 150px;
+     font-weight: bolder;
+}
+ /* .services p{
+    font-size: 20px;
+} */
