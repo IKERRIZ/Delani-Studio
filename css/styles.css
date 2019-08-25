@@ -41,6 +41,19 @@
      padding-top: 150px;
      font-weight: bolder;
 }
- /* .services p{
-    font-size: 20px;
-} */
+ .do{
+     text-align: center;
+     padding-top:30px;
+     font-weight: bolder;
+     font-size: 30px;
+ }
+ .do p{
+     display:none;
+ }
+ .do img,p{
+     cursor:pointer;
+ }
+ .do h2{
+     font-size: 20px;
+ }
+
