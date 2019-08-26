@@ -107,12 +107,13 @@
 }
 .contact input,textarea{
     background: none;
+    color:white;
 }
-::placeholder{
+#contact input::placeholder{
     color:white;
 }
 .contact textarea{
-    margin-left:100px;
+    margin-left:150px;
     margin-top:20px;
     /* margin-right: 100px; */
 }
@@ -122,11 +123,14 @@
 } */
 #email{
     position: relative;
-    right:200px;
+    margin-right:200px;
+    margin-left:-90px;
     width:300px;
+
 }
 #name{
     width:300px;
+    margin-left:150px;
 }
  /* button{
     position:relative;
@@ -142,79 +146,9 @@
 }
 #last p{
     text-align: center;
-    margin-top: 10px;
-
+   
 }
-@media screen and (max-width:800px){
-    .container{
-        height:850px;
-    }
-    .about{
-        height: 500px;
-    }
-    .do{
-        height: 500px;
-    }
-    .do .row{
-        display: flex;
-        flex-direction: column;
-    }
-    .contact{
-        height: 700px;
-    }
-    #name{
-        width: 200px;
-        position: relative;
-        right: 200px;
-    }
-    #email{
-        width: 200px;
-        position: relative;
-        right: 200px;
-    }
-    textarea{
-        width: 300px;
-        height: 300px;
-        position: relative;
-        right: 200px;
-    }
-    button{
-        color: black;
-    }
-    .cover{
-        overflow: hidden;
-    }
-    
-}
-@media screen and (max-width:300px){
-    .contact{
-        height: 700px;
-    }
-    #name{
-        width: 200px;
-        position: relative;
-        right: 200px;
-    }
-    #email{
-        width: 200px;
-        position: relative;
-        right: 200px;
-    }
-    textarea{
-        width: 300px;
-        height: 300px;
-        position: relative;
-        right: 200px;
-    }
-    button{
-        color: black;
-    }
-    .cover{
-        overflow: hidden;
-    }
-}
-@media screen and (max-width:500px){
-    .cover{
-        overflow: hidden;
-    }
+button{
+    text-align: center;
+    margin-top: 20px;
 }
