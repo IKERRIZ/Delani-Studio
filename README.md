@@ -4,7 +4,7 @@
 ## Description
  Delani studio is a basic website aimed at helping students familiarize with various jQuery and bootsrap concepts.
 ## Part of Delani website
-![image](./assets/backgrounds/del.png)
+![image](/assets/backgrounds/del.png)
 
 ## Behaviour Driven Development(BDD)
 In 'What We do' icons when clicked should toggle between the respective description of each icons. The description and header should be centered aligned and appear in bold.
