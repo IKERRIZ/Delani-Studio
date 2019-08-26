@@ -10,10 +10,10 @@
 In 'What We do' icons when clicked should toggle between the respective description of each icons. The description and header should be centered aligned and appear in bold.
 I have created a hover effect for the 'portfolio' section such that on hover a white box appears with the name of the project inside as the pictures remains visible in the background.
 
-  Behavior        Input         Output
+ | Behavior  |      Input       |  Output
 |-------------|----------------|---------------|
 |The browser loads|User input details|Alert message appears
-                            |             |
+                        
 
 ## Setup/Installation Requirements
 One requires an internet browser in order to view the website oneline.
